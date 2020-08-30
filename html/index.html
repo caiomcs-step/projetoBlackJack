@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/padrao.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/estilo.css'>
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../js/main.js"></script>
+
+</head>
+
+<body>
+    <article id="menu">
+        <button class="menuBotao" id="darCartas" onclick="darCartas()">DAR CARTAS</button>
+        <button class="menuBotao" id="reniciar">RENICIAR</button>
+    </article>
+    <article id="mesaMadeira">
+        <article id="mesaJogo">
+            <section class="boxCarta" id="cartaDealer1"></section>
+            <section class="boxCarta" id="cartaDealer2"></section>
+            <section class="cartasMaisDealer" id="cartaDealer4"></section>
+            <section class="cartasMaisDealer" id="cartaDealer3"></section>
+            <section class="cartasMaisDealer" id="cartaDealer5"></section>
+            <section class="cartasMaisDealer" id="cartaDealer6"></section>
+            <section id="pontoDealer">
+                0
+            </section>
+
+            <section id="resultadoFinal">
+                <p id="mensagemResultado">
+
+                </p>
+                <button id="botaoProximaPartida" onclick="proximaPartida()">
+                    PROXIMA PARTIDA
+                </button>
+
+            </section>
+
+            <section class="boxCarta" id="cartaJogador1"></section>
+            <section class="boxCarta" id="cartaJogador2"></section>
+            <section class="cartasMais" id="cartaMais1"></section>
+            <section class="cartasMais" id="cartaMais2"></section>
+            <section class="cartasMais" id="cartaMais3"></section>
+            <section class="cartasMais" id="cartaMais4"></section>
+
+            <input type="number" min="5" max="100" value="5" id="apostas">
+            <button id="betBotao" onclick="bet()">BET</button>
+            <section id="pontoJogador">
+                0
+            </section>
+
+
+        </article>
+    </article>
+
+    <article id="boxBotao">
+        <section class="botoesJogadas" id="botaoSplit">
+            <p>
+                SPLIT
+            </p>
+        </section>
+        <section class="botoesJogadas" id="botaoStand" onclick="stand()">
+            <p>
+                STAND
+            </p>
+        </section>
+        <section class="botoesJogadas" id="botaoHit" onclick="hit()">
+            <p>
+                HIT
+            </p>
+        </section>
+        <section class="botoesJogadas" id="botaoDouble">
+            <p>
+                DOUBLE
+            </p>
+        </section>
+    </article>
+    <article id="boxSaldo">
+        <section style="float: left;">
+            <img src="../img/fichaSaldo.png">
+        </section>
+        <section id="boxSaldoTotal">
+            R$
+            <p id="saldo">
+                0,00
+            </p>
+        </section>
+    </article>
+</body>
+
+</html>
