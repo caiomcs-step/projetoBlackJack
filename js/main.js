@@ -39,10 +39,10 @@ function darCartas() {
 
         saldoJogador.innerHTML = saldo;
 
-        cartaDealer1.style.marginLeft = "28%"
-        cartaDealer2.style.marginLeft = "35%"
-        cartaDealer3.style.marginLeft = "35%"
-        cartaDealer4.style.marginLeft = "35%"
+        cartaDealer1.style.marginLeft = "28%";
+        cartaDealer2.style.marginLeft = "35%";
+        cartaDealer3.style.marginLeft = "35%";
+        cartaDealer4.style.marginLeft = "35%";
         cartaDealer3.style.height = "0%"
         cartaDealer4.style.height = "0%"
         cartaDealer3.style.display = "none"
@@ -51,12 +51,12 @@ function darCartas() {
         pontoDealer.style.display = "none"
 
         cartaMao1.style.marginLeft = "28%"
-        cartaMao2.style.marginLeft = "35%"
+        cartaMao2.style.marginLeft = "35%";
 
-        cartaMais1.style.marginLeft = "35%"
-        cartaMais2.style.marginLeft = "35%"
-        cartaMais3.style.marginLeft = "35%"
-        cartaMais4.style.marginLeft = "35%"
+        cartaMais1.style.marginLeft = "35%";
+        cartaMais2.style.marginLeft = "35%";
+        cartaMais3.style.marginLeft = "35%";
+        cartaMais4.style.marginLeft = "35%";
         cartaMais1.style.height = "0%"
         cartaMais2.style.height = "0%"
         cartaMais3.style.height = "0%"
